@@ -31,15 +31,15 @@
     <div class="container-forms">
         <form>
             <label for="nome">Nome:</label> <br>
-            <input class="caixa" type="text" id="nome" onkeyup="validarNome()">
+            <input class="caixa" type="text" id="nome" onkeyup="validaNome()">
             <div id="txtNome"></div>
             <br>
             <label for="email">E-mail:</label> <br>
-            <input class="caixa" type="email" id="email" onkeyup="validarEmail()" >
+            <input class="caixa" type="email" id="email" onkeyup="validaEmail()" >
             <div id="txtEmail"></div>
             <div class="container-assunto"
             <label for="assunto">Assunto:</label> <br>
-            <textarea class="caixa" onkeyup="validarAssunto()" id="assunto" cols="60" rows="5"></textarea>
+            <textarea class="caixa" onkeyup="validaAssunto()" id="assunto" cols="60" rows="5"></textarea>
             <div id="txtAssunto"></div>
             </div>
             <button class="caixa" onclick="enviar()">Enviar</button>
