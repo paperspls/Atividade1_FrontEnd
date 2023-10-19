@@ -5,6 +5,9 @@ body{
     font-family: 'Fredoka', sans-serif;
     font-family: 'Noto Sans JP', sans-serif;
     font-family: 'Roboto Mono', monospace;
+}
+
+header{
     display: flex;
     flex-direction: column;
 }
@@ -23,6 +26,20 @@ body{
     text-align: center;
 }
 
+.container-video{
+    text-align: center;
+}
+
+.container-forms{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+    text-align: center;
+    flex-direction: row;
+    border-radius: 22px;
+    color: white;
+}
 .imagem{
     width: 40%;
     height: 40%;
@@ -30,17 +47,15 @@ body{
 
 .container-button{
     text-align: center;
-    color: blue;
 }
 
 .button {
     transition: color 0.3s, font-size 0.3s, text-decoration 0.3s, letter-spacing 0.3s;
     font-family: 'Fredoka', 'Noto Sans JP', 'Roboto Mono', sans-serif;
     font-size: 16px;
-    text-decoration: none;
     border-radius: 22px;
+    text-decoration: none;
     background-color: rgb(255, 255, 255);
-    color: black;
 }
 
 .button:hover {
@@ -58,3 +73,20 @@ body{
     align-content: center;
 }
 
+a:link {
+    color:#000000;
+    text-decoration:none;
+}
+
+a:visited{
+    color: rgb(0, 0, 0);
+}
+
+a:visited:hover {
+    color: #0400ff;
+}
+
+.caixa {
+    border-radius: 22px;
+    font-family: 'Fredoka', 'Noto Sans JP', 'Roboto Mono', sans-serif;
+}
